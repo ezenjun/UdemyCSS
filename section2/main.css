@@ -1,0 +1,51 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+
+    font-family: sans-serif;
+}
+#product-overview{
+    background: #ff1b68;
+}
+#product-overview h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.section-title{
+    color: skyblue;
+}
+
+
+/* priority
+    1. inline styles
+    2. id selectors
+    3. class selectors
+    4. tag and pseudo-element selectors
+*/
+/* 
+h1 + p { adjacent sibling (h1와 붙어있는 p만)
+    h1
+    p --> ok
+    h2
+    p --> no
+}
+
+h1 ~ p{ general sibling 붙어있지 않아도 같은 부모, 순서상 뒤에만 존재해도 ok 
+    h1
+    p --> ok
+    h1
+    h2
+    p --> ok
+}    
+
+div > p{ direct child 에만 적용
+
+}
+
+div p{ 모든 child에 적용 (direct 상관 x)
+
+}
+*/
