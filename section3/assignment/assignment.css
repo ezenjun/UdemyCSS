@@ -1,0 +1,30 @@
+.box1{
+    padding:8px;
+    margin: 16px;
+    border: 2px solid pink;
+    color: blue;
+    text-align: center;
+    height: 100%;
+    display: block;
+    
+}
+
+html,
+body{
+    height: 100%;
+}
+#first-box{
+    height: 300px;
+    width: 50%;
+    box-sizing: border-box;
+}
+.box2{
+    padding:8px;
+    margin: 16px;
+    border: 2px solid pink;
+    color: blue;
+    text-align: center;
+    height: 10%;
+    display: block;
+    
+}
