@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    /* includes all margin, padding, border to the width or height */
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-header{
+    background: rgb(88, 88, 88);
+    color: white;
+    padding: 16px 16px;
+    width: 100%;
+}
+
+.main-header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 75px);
+    vertical-align: middle;
+}
+
+.main-nav__items{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+/* .main-nav__item a::after{
+    content: "(Link)";
+    color:skyblue;
+} */
+
+.main-nav__item a{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    font-weight: bold;
+    padding: 3px 0;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.main-nav__item--cta a{
+    color:white;
+    background: rgb(223, 106, 106);
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    color:red;
+    background: white;
+    border: none;
+}
+
+.main-footer{
+    background: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+
+.main-footer__links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.main-footer__link{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color: #ccc;
+}
+
+.button{
+    background: rgb(168, 145, 149);
+    color: white;
+    font:inherit;
+    border: 1.5px solid rgb(51, 51, 51);
+    padding: 8px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.button:hover,
+.button:active{
+    background-color: aliceblue;
+    color: rgb(0, 255, 76);
+}
+
+.button:focus{
+    outline: none;
+}
